@@ -62,6 +62,7 @@ int main(){
         fin>> state1;
         isFinal[state1] = true;
     }
+	
     fin>> numTests;
     for(i = 1; i <= numTests; i++){
         fin>> word + 1;
